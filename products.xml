@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Experiment No. 2
+    XML Product Information with XSLT Transformation
+-->
+
+<?xml-stylesheet type="text/xsl" href="products.xsl"?>
+
+<products>
+
+    <product>
+        <id>101</id>
+        <name>Laptop</name>
+        <category>Electronics</category>
+        <price>55000</price>
+        <quantity>10</quantity>
+        <status>In Stock</status>
+    </product>
+
+    <product>
+        <id>102</id>
+        <name>Smartphone</name>
+        <category>Electronics</category>
+        <price>25000</price>
+        <quantity>30</quantity>
+        <status>In Stock</status>
+    </product>
+
+    <product>
+        <id>103</id>
+        <name>Headphones</name>
+        <category>Accessories</category>
+        <price>2000</price>
+        <quantity>50</quantity>
+        <status>In Stock</status>
+    </product>
+
+    <product>
+        <id>104</id>
+        <name>Smart Watch</name>
+        <category>Wearables</category>
+        <price>7500</price>
+        <quantity>20</quantity>
+        <status>In Stock</status>
+    </product>
+
+    <product>
+        <id>105</id>
+        <name>Keyboard</name>
+        <category>Accessories</category>
+        <price>1500</price>
+        <quantity>8</quantity>
+        <status>Limited Stock</status>
+    </product>
+
+    <product>
+        <id>106</id>
+        <name>Wireless Mouse</name>
+        <category>Accessories</category>
+        <price>1200</price>
+        <quantity>0</quantity>
+        <status>Out of Stock</status>
+    </product>
+
+</products>
