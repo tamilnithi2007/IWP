@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Form</title>
+</head>
+
+<body>
+    <h2>User Login</h2>
+    <form action="LoginServlet" method="post">
+        Username: <input type="text" name="username" required><br><br>
+        Password: <input type="password" name="password" required><br><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+
+</html>cd c:\Users\SAI\Desktop\Lab\IWP\ex05
+javac -cp "WEB-INF\lib\jakarta.servlet-api.jar" -d WEB-INF\classes src\LoginServlet.java
